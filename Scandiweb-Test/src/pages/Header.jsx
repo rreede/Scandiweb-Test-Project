@@ -5,10 +5,10 @@ function Header() {
     return(
         <>
         <header>
-        <h2>Product List</h2>
+        <h2>Product Add</h2>
         <nav>
-             <Link to={`/add-product`}><button >ADD</button></Link>
-             <button id='delete-product-btn'>MASS DELETE</button>
+             <Link to={`/add-product`}><button >Save</button></Link>
+             <button id='delete-product-btn'>Cancel</button>
         </nav>
 
         </header>
