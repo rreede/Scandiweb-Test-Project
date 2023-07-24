@@ -1,3 +1,5 @@
+import { Outlet, Link } from "react-router-dom";
+
 function Header() {
 
     return(
@@ -5,7 +7,9 @@ function Header() {
         <header>
         <h2>Product List</h2>
         <nav>
-            <button >ADD</button>
+
+        <Link to={`/add-product`}><button >ADD</button></Link>
+            
 
             <button id='delete-product-btn'>MASS DELETE</button>
         </nav>
