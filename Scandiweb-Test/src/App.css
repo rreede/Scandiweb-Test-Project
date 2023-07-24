@@ -42,16 +42,44 @@
 }
 
 header {
-  border-bottom:1px solid gray;
+  border-bottom:1px solid rgb(99, 99, 99);
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 footer {
-  border-top:1px solid gray;
+  border-top:1px solid rgb(99, 99, 99);
+}
+
+main {
+  padding: 50px 0 25px 0;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
 }
 
 .wrapper {
   width:960px;
+}
+
+#delete-product-btn {
+  margin-left:25px;
+}
+
+.product {
+  position:relative;
+  width:250px;
+  height:250px;
+  border:1px solid gray;
+  border-radius:5px;
+  padding:25px;
+  margin-bottom:25px;
+  margin-right:6px;
+}
+
+.delete-checkbox {
+  position:absolute;
+  top:12.5px;
+  left:12.5px;
 }

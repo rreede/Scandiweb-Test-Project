@@ -2,7 +2,7 @@ function Footer() {
 
     return(
         <footer>
-        <p>Scandiweb Test</p>
+        <p>Scandiweb Test assignment</p>
         </footer>
     )
 

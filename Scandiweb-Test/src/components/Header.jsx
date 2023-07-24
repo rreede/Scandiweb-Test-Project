@@ -5,9 +5,9 @@ function Header() {
         <header>
         <h2>Product List</h2>
         <nav>
-            <button>ADD</button>
+            <button >ADD</button>
 
-            <button>MASS DELETE</button>
+            <button id='delete-product-btn'>MASS DELETE</button>
         </nav>
 
         </header>

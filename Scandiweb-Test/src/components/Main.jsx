@@ -1,8 +1,15 @@
+import Product from "./Product";
+
 function Main() {
 
     return(
         <main>
-            Main
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
         </main>
     )
 
