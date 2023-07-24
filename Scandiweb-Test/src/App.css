@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+header {
+  border-bottom:1px solid gray;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  border-top:1px solid gray;
+}
+
+.wrapper {
+  width:960px;
+}
