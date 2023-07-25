@@ -3,16 +3,16 @@ import { Outlet, Link } from "react-router-dom";
 function Header() {
 
     return(
-        <>
-       <label htmlFor="">Height(CM)</label>
-        <input type="text" name="" id="" />
+        <div className='property-container'>
+       <label className='main-label' htmlFor="">Height(CM)</label>
+        <input type="text" name="" id="" /><br/>
 
-        <label htmlFor="">Width(CM)</label>
-        <input type="text" name="" id="" />
+        <label className='main-label' htmlFor="">Width(CM)</label>
+        <input type="text" name="" id="" /><br/>
 
-        <label htmlFor="">Length(CM)</label>
-        <input type="text" name="" id="" />
-        </>
+        <label className='main-label' htmlFor="">Length(CM)</label>
+        <input type="text" name="" id="" /><br/>
+        </div>
     )
 
 }

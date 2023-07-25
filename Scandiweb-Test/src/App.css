@@ -78,10 +78,36 @@ main {
   margin-right:12.5px;
 }
 
-
-
 .delete-checkbox {
   position:absolute;
   top:12.5px;
   left:12.5px;
+}
+
+.main-label {
+  width:100px;
+  float:left;
+  text-align:left;
+}
+
+.input-field {
+  margin-bottom:25px;
+  display:block;
+}
+
+.property-container {
+  margin-top:50px;
+  display:block;
+}
+
+#productType {
+  width:100%;
+}
+
+input[type=text] {
+  background:white;
+  border:1px solid gray;
+  border-radius:5px;
+
+  height:25px;
 }

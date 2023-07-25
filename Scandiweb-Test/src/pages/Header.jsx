@@ -7,8 +7,8 @@ function Header() {
         <header>
         <h2>Product Add</h2>
         <nav>
-             <Link to={`/add-product`}><button >Save</button></Link>
-             <button id='delete-product-btn'>Cancel</button>
+             <Link to={`/`}><button >Save</button></Link>
+             <Link to={`/`}><button id='delete-product-btn'>Cancel</button></Link>
         </nav>
 
         </header>
