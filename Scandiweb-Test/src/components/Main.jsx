@@ -1,7 +1,12 @@
 import Product from "./Product";
 
-function Main() {
 
+    fetch('http://localhost/php/Scandiweb-Test-Project/Scandiweb-Test/src/back-end/api/product/read.php').then(response=>response.json()).then(data=>data);
+
+
+
+
+function Main() {
     return(
         <main>
             <Product/>
